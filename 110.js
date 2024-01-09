@@ -1,3 +1,22 @@
+// Lea dos números y devuelva el mayor.
+function higherOfTwo(A, B){
+    if (A > B){
+        console.log("El numero mayor es: " + A)
+    }
+    if (B > A){
+        console.log("El numero mayor es: " + B)
+    }
+    else if (A == B){
+        console.log("Son iguales, cari.")
+    }
+}
+let numA = 9;
+let numB = 3;
+
+higherOfTwo(numA, numB);
+
+
+// Otras formas de hacerlo...
 // function higherOfTwo(){
 //     let numA = 5;
 //     let numB = 5;
@@ -31,23 +50,3 @@
 // }
 
 // higherOfTwo(8, 2);
-
-
-
-function higherOfTwo(A, B){
-    // let numA = 5;
-    // let numB = 5;
-    if (A > B){
-        console.log("El numero mayor es: " + A)
-    }
-    if (B > A){
-        console.log("El numero mayor es: " + B)
-    }
-    else if (A == B){
-        console.log("Son iguales.")
-    }
-}
-    let numA = 9;
-    let numB = 3;
-
-higherOfTwo(numA, numB);

@@ -1,6 +1,6 @@
-function doubleNum(){
-    let num = 5;
-    console.log(num * 2);
+// Lea un número y devuelva el doble.
+function doubleNum(num){
+    console.log(`El doble de ${num} es: ` + (num * 2));
 }
 
-doubleNum();
+doubleNum(5);
