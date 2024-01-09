@@ -1,5 +1,5 @@
-function saludarPersona(nombre) {
-    console.log("¡Hola, " + nombre + "!");
+function hiName(name){
+    console.log("¡Hola, " + name + "!");
 }
   
-saludarPersona("Carolina");
+hiName("Carolina");

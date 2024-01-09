@@ -1,3 +1,3 @@
-function dobleNum(Num){
+function doubleNum(Num){
     
 }
